@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>APPAC | Annotation</title>
+	<link rel="stylesheet" type="text/css" href="bower_components/mediaelement/build/mediaelementplayer.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/video.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">APPAC</a>
+        </div>
+      </div>
+    </nav>
+
+	<div class="video_player">
+		<video id="youtube1" width="760" height="440" autoplay preload="none" controls="false">
+			<source src="http://www.youtube.com/watch?v=dQ3QJoS5aaw" type="video/youtube" >
+		</video>
+		<div id="annotation" data-vdo_id="2">
+			<!--  editor -->
+		</div>
+		<div class="video_control">
+			<ul>
+				<li><a class="pause play_pause" href="#">Pause</a></li>
+				<li class="progress">
+					<div class="bookmark"></div>
+					<div class="progress"></div>
+				</li>
+				<li><a class="mark" href="#">Bookmark</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/mediaelement/build/mediaelement-and-player.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
